@@ -6,7 +6,7 @@ struct Student {
 };
 
 int main() {
-    struct Student s = {101, "Anu"};
+    struct Student s = {101, "Neha"};
     struct Student *ptr = &s;   // FIXED: use '=' instead of '&' alone
 
     printf("ID: %d\n", ptr->id);
